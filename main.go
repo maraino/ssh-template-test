@@ -22,10 +22,10 @@ var template = `{
 
 func main() {
 	// JWT token created using:
-	// 	step crypto jwk create key.pub key.priv
-	// 	echo '{"preferred_username":"foobar"}' | step crypto jwt sign \
-	// 		--key key.priv --iss "joe@example.com" --aud "https://example.com"
-	//  	--sub mariano@smallstep.com --exp $(date -v+1M +"%s")
+	//   step crypto jwk create key.pub key.priv
+	//   echo '{"preferred_username":"foobar"}' | step crypto jwt sign \
+	//     --key key.priv --iss "joe@example.com" --aud "https://example.com" \
+	//     --sub mariano@smallstep.com --exp $(date -v+1M +"%s")
 	//
 	// The token looks like:
 	// {
